@@ -4,7 +4,7 @@ exports each tiddler of a local [tiddlywiki](https://tiddlywiki.com/) file to a 
 
 This application is meant as a base for yor own tiddler export needs. Especially if you have many custom tiddler fields, tiddler images, etc this needs tweaking but can be a good base for starting.
 
-As of now it reads all tiddlers which are content tiddlers (no $:/ in tiddlers title), reads title, text and tags and writes it as a string into the new file. Final files are .md or .txt
+As of now it reads all tiddlers which are content tiddlers (no $:/ in tiddlers title), reads title, text and tags and writes it as a string into the new file. Final files are .md or .txt. it also preserves the tiddlers creation and modified date in the newly exportet files
 
 the resulting file name is cleaned of special characters (again, tweak to your own needs) and each tiddler is written into a seperate file in the export folder. If you need special transformation (like replacing tiddlywikis headings "!" with "#" you can tweak this)
 
