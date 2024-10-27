@@ -1,6 +1,6 @@
 # tiddler-export
 ## Description
-exports each tiddler of a local [tiddlywiki](https://tiddlywiki.com/) file to a textfile with python and beautifulsoup
+exports each tiddler of a local [tiddlywiki](https://tiddlywiki.com/) file to a textfile with python and [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/)
 
 This application is meant as a base for yor own tiddler export needs. Especially if you have many custom tiddler fields, tiddler images, etc this needs tweaking but can be a good base for starting.
 
@@ -57,7 +57,8 @@ exportet_file_tiddler_contents = ["title", "text", "tags"] # tiddler fields cont
 ```
 
 ## Run Application
-
+* copy your tiddlywiki.html file into the same folder as the main.py application
+* run the application from the command line (or Visual Studio, etc)
 ```powershell
 .venv/Scripts/python.exe ./main.py
 ```
