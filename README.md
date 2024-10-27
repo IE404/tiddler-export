@@ -24,11 +24,6 @@ the resulting file name is cleaned of special characters (again, tweak to your o
 python -m venv .venv
 ```
 
-* create virtual environment
-```powershell
-python -m venv .venv
-```
-
 * activate environment
 ```powershell
 python .\.venv\Scripts\Activate.ps1
